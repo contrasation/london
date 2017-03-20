@@ -1,0 +1,13 @@
+*** Should use python 3.5
+
+- make a project
+
+[p76ed3f63:~/python/london] hanabata% ~/python_3.5.2/bin/django-admin startproject locallibrary
+
+
+- make application
+
+
+
+user: hanabata
+password: contrasation

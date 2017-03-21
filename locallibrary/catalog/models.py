@@ -18,6 +18,7 @@ class Genre(models.Model):
         """
         return self.name
 
+
 class Language(models.Model):
     """
     Model representing a Language (e.g. English, French, Japanese, etc.)
@@ -108,7 +109,7 @@ class Author(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     date_of_birth = models.DateField(null=True, blank=True)
-    data_of_death = models.DateField('Died', null=True, blank=True)
+    date_of_death = models.DateField('Died', null=True, blank=True)
 
     def get_absolute_url(self):
         """

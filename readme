@@ -5,7 +5,7 @@
 [p76ed3f63:~/python/london] hanabata% ~/python_3.5.2/bin/django-admin startproject locallibrary
 
 - Resume from here
-Template : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page
+View (class-based) : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views
 
 - make application
 

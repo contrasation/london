@@ -5,8 +5,7 @@
 [p76ed3f63:~/python/london] hanabata% ~/python_3.5.2/bin/django-admin startproject locallibrary
 
 - Resume from here
-View (class-based) : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views
-
+Saving session data : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions
 - make application
 
 

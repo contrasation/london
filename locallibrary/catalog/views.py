@@ -4,7 +4,6 @@ from .models import Book, Author, BookInstance, Genre
 from django.views import generic
 # Create your views here.
 
-
 def index(request):
 
     """
@@ -29,14 +28,29 @@ def index(request):
 
 class BookListView(generic.ListView):
     model = Book
+    paginate_by = 1
+
     # context_object_name = 'my_book_list'
     # queryset = Book.objects.filter(title__icontains='war')[:5]
     # template_name = 'books/my_arbitrary_template_name_list.html'
 
     def get_queryset(self):
-        return Book.objects.filter(title__icontains='war')[:5]
+        return Book.objects.filter(title__icontains='')[:5]
 
     def get_context_data(self, **kwargs):
         context = super(BookListView, self).get_context_data(**kwargs)
         context['some_data'] = 'This is just some data'
         return context
+
+
+class BookDetailView(generic.DetailView):
+    model = Book
+
+
+class AuthorListView(generic.ListView):
+    model = Author
+    paginate_by = 1
+
+
+class AuthorDetailView(generic.DetailView):
+    model = Author

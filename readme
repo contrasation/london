@@ -5,7 +5,7 @@
 [p76ed3f63:~/python/london] hanabata% ~/python_3.5.2/bin/django-admin startproject locallibrary
 
 - Resume from here
-Saving session data : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Sessions
+Logout template : https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Authentication
 - make application
 
 
